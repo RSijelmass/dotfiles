@@ -99,10 +99,5 @@ let g:solarized_termtrans=1
 " in ~/.vim/colors/ and uncomment:
 " colorscheme solarized
 
-"Remap ESC key
-:imap jj <Esc>
-
-"set clipboard to global
-set clipboard=unnamed
-
-augroup filetype javascript syntax=javascript
+" Use jj as escape key
+imap jj <esc>
